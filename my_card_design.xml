@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:height="100dp" android:width="100dp"
+    android:viewportHeight="100" android:viewportWidth="100">
+    <path
+        android:name="bottom_triangle"
+        android:fillColor="@color/khaki"
+        android:pathData="M 100,75 L 0,100 100,100 z" />
+
+    <path
+        android:name="mid_tri"
+        android:fillColor="@color/khaki"
+        android:pathData="M 50,0 L 100,50 100,25 z" />
+
+    <path
+        android:name="topR_tri"
+        android:fillColor="@color/gainsboro"
+        android:pathData="M 50,0 L 100,0 100,25 z"/>
+
+    <path
+        android:name="logo_circle"
+        android:strokeColor="@color/slack"
+        android:strokeWidth="0.5"
+        android:pathData="M 68,15 A 10,7 0 1,1 98,15
+                            A 10,7 0 1,1 68,15"/>
+
+    <path
+        android:name="mid_tri3"
+        android:fillColor="@color/red"
+        android:pathData="M 0,100 L 50,0 75,25 z"/>
+
+    <path
+        android:name="topL_tri"
+        android:fillColor="@color/slack"
+        android:pathData="M 0,0 L 50,0 0,100 z" />
+
+    <path
+        android:fillColor="@color/teal_700"
+        android:pathData="M 0,100 L 100,50 100,75 z"/>
+
+    <path
+        android:fillColor="@color/slack"
+        android:pathData="M 75,25 L 100,50 0,100"/>
+
+    <!--path
+        android:name="bottom_circle"
+        android:fillColor="@color/purple_200"
+        android:pathData="M0,100 A50,25 0 1,1 100,100" /-->
+</vector>
